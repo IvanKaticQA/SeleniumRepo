@@ -51,7 +51,7 @@ public class MyAddressesTests extends ProjectBaseTests{
 
 	}
 	@Test (priority=10)
-	private void deleteOneAddress() throws InterruptedException, AWTException {
+	public void deleteOneAddress() throws InterruptedException, AWTException {
 		MyAccountPage.MyAddressButtonClick();
 		AddressesPage.DeleteButtonClick();
 		Thread.sleep(500);
